@@ -30,19 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    /* =====================================
-		MOVE TO TOP OF THE PAGE
-	======================================== */
-    document
-        .getElementById("scrollTop")
-        .addEventListener("click", function (e) {
-            e.preventDefault();
-            window.scrollTo(0, 0);
-        });
-
-    /* =====================================================
-		BOOTSTRAP SCROLLSPY
-	===================================================== */
     var scrollSpy = new bootstrap.ScrollSpy(document.body, {
         target: "#navbar",
     });
