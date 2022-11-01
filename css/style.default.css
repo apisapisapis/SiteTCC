@@ -425,7 +425,7 @@ legend + * {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+-webkit-appearance  : textfield;
 }
 
 ::-webkit-search-decoration {
@@ -3325,7 +3325,7 @@ fieldset:disabled .btn {
   justify-content: space-between;
 }
 
-.navbar-brand {
+.barranav {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
@@ -3735,11 +3735,11 @@ fieldset:disabled .btn {
   overflow-y: visible;
 }
 
-.navbar-light .navbar-brand {
+.navbar-light .barranav {
   color: #5954cb;
 }
 
-.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+.navbar-light .barranav:hover, .navbar-light .barranav:focus {
   color: #5954cb;
 }
 
@@ -3779,11 +3779,11 @@ fieldset:disabled .btn {
   color: #5954cb;
 }
 
-.navbar-dark .navbar-brand {
+.navbar-dark .barranav {
   color: #fff;
 }
 
-.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+.navbar-dark .barranav:hover, .navbar-dark .barranav:focus {
   color: #fff;
 }
 
@@ -3862,7 +3862,7 @@ fieldset:disabled .btn {
   border-top: 0;
 }
 
-.card-body {
+.sobrenos {
   flex: 1 1 auto;
   padding: 1rem 1rem;
 }
